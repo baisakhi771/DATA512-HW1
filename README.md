@@ -29,15 +29,20 @@ We have used a sample code(https://drive.google.com/file/d/1fYTIX79t9jk-Jske8Iwy
 rare_diseases_cleaned.AUG.2024.csv: This file contains the raw data retrieved from the Wikipedia Pageviews API for all specified rare diseases articles, including desktop and mobile traffic from July 1, 2015, through September 30, 2024.
 
 ### Output Files
+
 rare-disease_monthly_mobile_start201507-end202409.json - This file conntains pageview data for access types mobile-app and mobile-web together for each disease and every month from 01 July 2015 to 30 September 2024.
+
 rare-disease_monthly_desktop_start201507-end202409.json - This file conntains pageview data for access type desktop for each disease and every month from 01 July 2015 to 30 September 2024.
+
 rare-disease_monthly_cumulative_start201507-end202409.json - This file conntains pageview data for access types desktop, mobile-app and mobile-web together for each disease and every month from 01 July 2015 to 30 September 2024.
 
 
 ### Graph Images:
 
 Maximum_and_Minimum_average_views.png: Visualizes the articles with the highest and lowest average monthly pageviews for both desktop and mobile access types.
+
 Top_10_peak_page_views.png: Shows time series for the top 10 articles by peak pageviews for desktop and mobile access.
+
 Fewest_months_of_data_combined.png: Displays the articles with the fewest months of available pageview data, highlighting relatively short time series.
 
 
