@@ -41,6 +41,25 @@ Top_10_peak_page_views.png: Shows time series for the top 10 articles by peak pa
 Fewest_months_of_data_combined.png: Displays the articles with the fewest months of available pageview data, highlighting relatively short time series.
 
 
+## Data Schema
+
+All the intermediate files followed a json structure where the key is the disease name and the related fields are as follows:
+
+project which is always en.wkipedia meaning the data is taken from English Wikipedia
+
+granularity is monthly since we are doing a month over month time series analysis as part of this project
+
+timestamp in YYYYMMDDHH which shows the first of each month of any year starting from July 2015 to September 2024
+
+agent is user
+
+views is the page view count
+
+access has been removed from the output but it shows if the view was from mobile-app, mobile-web or desktop
+
+article also removed form output list since that is the key. It shows the disease name.
+
+
 ## How to Use This Project
 
 Data Retrieval: The data is fetched from the Wikipedia Pageviews API using Python scripts, which can be run to get the most up-to-date data.
